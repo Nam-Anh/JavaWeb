@@ -1,0 +1,46 @@
+/*CSS properties for the findSushi.jsp*/
+/*Single-News components*/
+.f-single_news{
+    /*This property set two elements stay side-by-side horizontally*/
+    display: flex;
+    /*Set width of this element to its parent*/
+    width: 100%;
+}
+/*Vertical news component*/
+.f-vertical-news{
+    /*Keep content vertically*/
+    display: flex;
+    flex-direction: column;
+    /*Set width of this element to its parent*/
+    width: 50%;
+}
+.f-ver-image{
+    padding: 10px 20px 10px 20px;
+}
+.f-ver-image img{
+    /*Scale image to fit its container*/
+    object-fit: contain;
+    width: 100%;
+}
+.f-ver-content{
+    /*Break word into new line, avoid overflowing to the padding region*/
+    word-wrap: break-word;
+    /*Make the content stay fully inside the div*/
+    overflow: hidden;
+}
+/*List of address*/
+.address ul{
+    /*Remove list-points*/
+    list-style: none;
+    /*Reset margin and padding to 0 instead of default value*/
+    padding: 0;
+    margin: 0;
+    /*Set list vertically*/
+    display: flex;
+    flex-direction: column;
+}
+/*Google Map*/
+.map-image {
+    object-fit: contain;
+    width: 100%;
+}

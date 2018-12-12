@@ -1,0 +1,67 @@
+/*CSS attributes to display all the detail of one specific cake */
+.cake-list-news{
+    /*display: inline-block;*/
+}
+.cake-list-content{
+    margin: 0px;
+    /*Break word into new line, avoid overflowing to the padding region*/
+    word-wrap: break-word;
+}
+.cake-list-image {
+    float: right;
+    /*Scale image to fit its container*/
+    object-fit: contain;
+    /*Precentage of width to its container*/
+    width: 25%;
+}
+
+/*Properties for the cake list web pages*/
+.link_properties{
+    /*Remove list point*/
+    text-decoration: none;
+    /*Color of link text*/
+    color: black;
+}
+
+/*Properties for pagination*/
+.pagination{
+    /*Set width for container of list page*/
+    min-width: 100px;
+    /*Display each page link each specific block*/
+    display: inline-block;
+    padding: 0% 50% 0% 50%;
+}
+.pagination ul{
+    list-style: none;
+    /*Make elements inside stay side-by-side*/
+    display: flex;
+}
+.pagination li{
+    /*Set width for one block if page-index*/
+    width: 50px;
+    /*Set page index to the center of container*/
+    text-align: center;
+}
+.pagination a{
+    /*Set width of text link = 100% of its container's width, which is 50px*/
+    width: 100%;
+    /*Set color of text to black*/
+    color: black;
+    float: left;
+    /*No underline for link*/
+    text-decoration: none;
+}
+.pagination span{
+    /*Set width of text link = 100% of its container's width, which is 50px*/
+    width: 100%;
+    /*The current page is highlighten green*/
+    background-color: #4CAF50;
+    /*Color of text is white*/
+    color: white;
+    /*Set content fully inside its container cause this span is considered to be a block*/
+    display: inline-block;/*or block is also available*/
+}
+.pagination a:hover{
+    /*Change color when hovering on incurrent page indexes*/
+    background-color: #ddd
+}

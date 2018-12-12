@@ -1,0 +1,55 @@
+/*Single-News components*/
+.single_news{
+    display: flex;
+}
+.intro-img{
+    float: left;
+    /*Scale image to fit container*/
+    object-fit: contain;
+    /*Width of img compared to container size*/
+    width: 25%;  
+    /*Margin right*/
+    margin-right: 20px;
+}
+.intro-content{
+    margin: 0px;
+    /*Break word into new line, avoid overflowing to the padding region*/
+    word-wrap: break-word;
+}
+.intro-content p{
+    font-family: sans-serif;
+    /*font-size: 14px;*/
+}
+/*Vertical news component*/
+.vertical-news{
+    /*Using flex to set elements stay side-by-side*/
+    display: flex;
+    /*Vertically*/
+    flex-direction: column;
+    width: 50%;
+}
+.ver-image{
+    padding: 10px 20px 10px 20px;
+}
+.ver-image img{
+    object-fit: contain;
+    width: 100%;
+}
+.ver-content{
+    padding: 10px 20px 10px 20px;
+    /*Break word into new line, avoid overflowing to the padding region*/
+    word-wrap: break-word;
+    /*Make the content stay fully inside the div*/
+    overflow: hidden;
+}
+/*Visit Info*/
+#visit_info{
+    padding: 10px 20px 10px 20px;
+}
+/*Link properties*/
+.link_properties{
+    /*Remove list point*/
+    text-decoration: none;
+    /*Color of link text*/
+    color: black;
+}

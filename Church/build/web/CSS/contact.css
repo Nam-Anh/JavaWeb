@@ -1,0 +1,16 @@
+/*CSS properties for the findSushi.jsp*/
+/*Table of information*/
+.table{
+    
+}
+.table tr{
+    margin-top: 5px;
+}
+.table p{
+    margin: 5px 0px 5px 0px;
+}
+/*Google Map*/
+.map-image {
+    object-fit: contain;
+    width: 100%;
+}

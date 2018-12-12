@@ -1,0 +1,24 @@
+/*CSS attributes to display all the detail of one specific prayer */
+.prayer-list-news{
+    /*display: inline-block;*/
+}
+.prayer-list-content{
+    margin: 0px;
+    /*Break word into new line, avoid overflowing to the padding region*/
+    word-wrap: break-word;
+}
+.prayer-list-image {
+    float: right;
+    /*Scale image to fit its container*/
+    object-fit: contain;
+    /*Precentage of width to its container*/
+    width: 25%;
+}
+
+/*Properties for the prayer list web pages*/
+.link_properties{
+    /*Remove list point*/
+    text-decoration: none;
+    /*Color of link text*/
+    color: black;
+}

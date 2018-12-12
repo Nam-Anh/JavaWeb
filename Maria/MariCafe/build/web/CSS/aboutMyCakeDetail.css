@@ -1,0 +1,17 @@
+/*CSS attributes to display all the detail of one specific cake */
+
+.cake-list-news{
+    /*display: inline-block;*/
+}
+.cake-list-content{
+    margin: 0px;
+    /*Break word into new line, avoid overflowing to the padding region*/
+    word-wrap: break-word;
+}
+.cake-list-image {
+    float: right;
+    /*Scale image to fit the size of container*/
+    object-fit: contain;
+    /*Set width of image to its containers' size*/
+    width: 25%;
+}

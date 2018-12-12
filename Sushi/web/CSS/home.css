@@ -1,0 +1,42 @@
+/*Single-News components*/
+.single_news{
+    width: 100%;
+    display: flex;
+}
+.intro-img{
+    float: left;
+    /*Scale image to fit container*/
+    object-fit: contain;
+    /*Width of img compared to container size*/
+    width: 90%;  
+    /*Margin right*/
+    margin-right: 20px;
+}
+/*Single-News components*/
+.sushi-img{
+    float: left;
+    /*Scale image to fit container*/
+    object-fit: contain;
+    /*Width of img compared to container size*/
+    width: 40%;  
+    /*Margin right*/
+    margin-right: 20px;
+}
+.sushi-content{
+    margin: 0px;
+    /*Break word into new line, avoid overflowing to the padding region*/
+    word-wrap: break-word;
+    /*Set padding space for text*/
+    padding: 0px 60px 0px 0px; 
+}
+.sushi-content p{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+/*Link properties*/
+.link_properties{
+    /*Remove list point*/
+    text-decoration: none;
+    /*Color of link text*/
+    color: black;
+}

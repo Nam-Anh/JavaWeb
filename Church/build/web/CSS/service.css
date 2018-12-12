@@ -1,0 +1,39 @@
+/*Properties for service*/
+.serviceDiv{
+    /*Set width*/
+    width: 100%;
+}
+.serviceDes{
+    /*Set width*/
+    /*width: 90%;*/
+    padding-right: 20px;
+}
+/*Properties for table of servicelist*/
+.table{
+    width: 95%;
+    /*Do not display border*/
+    border-collapse: collapse;
+}
+.table tr{
+    /*Display top border*/
+/*    border-top: 1px solid #ddd;*/
+}
+.table td{
+    height: 20px;
+}
+.right-align{
+    /*align: right;*/
+}
+.service-shedule{
+    /*Set width*/
+    width : 200px;
+    /*Align on top of the table cell*/
+    vertical-align: top;
+    /*Set a little padding-top*/
+    padding-top: 5px;
+}
+.service-shedule p{
+    /*Reset margin and padding*/
+    margin: 0;
+    padding: 0;
+}

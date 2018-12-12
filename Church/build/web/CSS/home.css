@@ -1,0 +1,93 @@
+/*Single-News components*/
+.single_news{
+    width: 100%;
+    display: flex;
+}
+.intro{
+    /*Padding space*/
+    padding: 0px 70px 0px 0px; 
+}
+.intro-img{
+    float: left;
+    /*Scale image to fit container*/
+    object-fit: contain;
+    /*Width of img compared to container size*/
+    width: 90%;  
+    /*Margin right*/
+    margin-right: 20px;
+}
+/*Single-News components*/
+.church-img{
+    float: right;
+    /*Scale image to fit container*/
+    object-fit: contain;
+    /*Width of img compared to container size*/
+    width: 40%;  
+    /*Margin space*/
+    margin: 0px 20px 10px 20px;
+}
+.church-content{
+    margin: 0px;
+    /*Break word into new line, avoid overflowing to the padding region*/
+    word-wrap: break-word;
+    /*Set padding space for text*/
+    padding: 0px 60px 0px 0px; 
+}
+.church-content p{
+    font-family: sans-serif;
+}
+/*Author information*/
+.author{
+    /*Width of the whole table*/
+    width: 80%;
+}
+.author table{
+    /*Width of the whole table*/
+    width: 100%;
+}
+.author tr{
+    /*Width of the whole table*/
+    width: 100%;
+    height: 200px;
+}
+.author td{
+    /*overflow: hidden;*/
+    /*Width of img compared to container size*/
+    width: 50%;
+    height: auto;
+    vertical-align: bottom;
+    
+    overflow: hidden;
+}
+.author-img{
+    float: left;
+    /*Scale image to fit container*/
+    object-fit: contain;
+    /*Width of img compared to container size*/
+    width: 80%;  
+    /*Height of image*/
+    min-height: 100px;
+    height: auto;
+    /*Margin space*/
+    margin: 0px 20px 10px 20px;
+}
+.author p{
+    font-size: 28px; 
+}
+#author-signature{
+    /*padding-bottom: 100px;*/
+}
+#kind-font{
+    font-size: 20px;
+}
+#sign{
+    margin-bottom: 10px;
+}
+/*Link properties*/
+.link_properties{
+    /*Remove list point*/
+    text-decoration: none;
+    /*Color of link text*/
+    color: black;
+}
+

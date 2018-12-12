@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Sushi">
+    <Environment name="myConnectionURL" value="jdbc:sqlserver://localhost:1433;databaseName=Sushi" type="java.lang.String"/> 
+    <Environment name="databaseUser" value="sa" type="java.lang.String"/> 
+    <Environment name="databasePass" value="123456" type="java.lang.String"/>
+    <Environment name="photoPath" value="image/" type="java.lang.String"/> 
+</Context>
